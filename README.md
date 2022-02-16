@@ -54,3 +54,14 @@ $: python3 -m pip install wheel pymavlink dronekit
 ```bash
 $: python3 -m pip install simplejson pid cherrypy jinja2 dronekit dronekit-sitl
 ```
+
+## Informations complémentaires
+
+- SimpleJSON permet de traîter les ficher et de les éditer comme un dictionnaire en Python
+- CherryPy est un module basé sur l'application WEB qui permet d'afficher une map indiquant plusieurs caractéristiques intéressantes
+- *Delivery.py*
+  - Class Drone:
+  - \+ index
+  - \+ track (coordonnées) (route : /track)
+  - \+ command (instructions) (route : /command)
+  - \+ get_template (rendu View) (rout : *FICHER*.html)
