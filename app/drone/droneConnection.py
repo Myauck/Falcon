@@ -2,7 +2,6 @@ from config.configurable import Configurable
 from config.config import Config as ConfigClass
 import drone as DroneClass
 
-@DeprecationWarning
 class DroneConnection(Configurable):
 
     CONFIG_SECTION: str = "connection"
