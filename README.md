@@ -4,7 +4,7 @@
 
 ### Description du projet
 
-**Version** : 0.0.1-b4
+**Version** : 0.0.1-b5
 
 **Drone de surveillance équipée d'un système de prise de vue**.
 
@@ -34,19 +34,34 @@ Les *Difficultés* sont approximatives
 
 ### Modules et dépendances
 
-| :warning: ATTENTION                       |
-|:------------------------------------------|
-| La version utilisée est **Python 3.9.10** |
+:warning:  La version utilisée est **Python 3.9.10**
 
 Si vous utilisez une version ultérieure, les risques de corruption peuvent être élevés. Pour installer la bonne version de Python, veuillez vous renseigner sur [ce lien](https://www.python.org/downloads/release/python-3910/)
 
+Voici la commande pour installer les dépendances nécessaires pour le projet:
+
+#### Installation
+
+:information:
+
+##### Sur Windows
+
+```bash
+python -m pip install tello tello-python
+```
+##### Sur Linux et sur MacOS
+
+```bash
+python3 -m pip install tello tello-python
+```
+
 #### Les différentes dépendances du projet
 
-- **tello** *(1.2)*
-- **tello-python** *(1.1.6)*
-- **opencv-python** *(4.5.5.62)*
-- **paddlepaddle** *(2.2.2)*
-- **paddlehub** *(2.2.0)*
+- **tello** *(1.2)* API permettant de manipuler le drone Tello
+- **tello-python** *(1.1.6)* Dépendance complémentaire du module Tello
+- **opencv-python** *(4.5.5.62)* Module qui vise des modèles basés sur le graphisme en pleine exécution
+- **paddlepaddle** *(2.2.2)* Système de modèle d'apprentissage intelligent
+- **paddlehub** *(2.2.0)* Système intelligent de reconnaissance d'entités sur une image ou une vidéo 
 - **flask** *(2.0.3)*
 - **Jinja2** *(3.0.3)*
 - **click** *(8.0.3)*
@@ -113,16 +128,3 @@ Si vous utilisez une version ultérieure, les risques de corruption peuvent êtr
 - **scipy** *(1.8.0)*
 - **platformdirs** *(2.5.0)*
 - **distlib** *(0.3.4)*
-
-Voici la commande pour installer les dépendances ci-dessus:
-
-#### Installation sur Windows 
-
-```bash
-python -m pip install tello tello-python
-```
-#### Installation sur Linux 
-
-```bash
-python3 -m pip install tello tello-python
-```
