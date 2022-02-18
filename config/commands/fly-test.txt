@@ -1,0 +1,12 @@
+takeoff
+left 50
+forward 50
+right 100
+backward 100
+left 50
+forward 50
+stop
+cw 180
+cww 180
+land
+emergency
