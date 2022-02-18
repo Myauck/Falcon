@@ -1,4 +1,3 @@
-from textwrap import indent
 from tello import Tello
 from datetime import datetime
 import time
