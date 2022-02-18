@@ -26,7 +26,7 @@ Les *Difficultés* sont approximatives
 - [ ] Afficher les données et l'image émise par le drone dans l'interface *(Difficulté 3/5)*
 - [ ] Afficher le visage détecté *(Difficulté 4/5)*
 - [ ] Configurer la caméra embarquée du drône *(Difficulté 2/5)*
-- [ ] Installer les bibliothèques de traitement d'images OpenCV *(Difficulté 2/5)*
+- [x] Installer les bibliothèques de traitement d'images OpenCV *(Difficulté 2/5)*
 - [ ] Programmer un traitement d'images pour détecter un visage *(Difficulté 4/5)*
 - [ ] Stocker l'image du visage dans une base de données *(Difficulté 4/5)*
 
