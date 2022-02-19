@@ -42,14 +42,14 @@ Voici la commande pour installer les dépendances nécessaires pour le projet:
 
 #### Installation
 
-:information:
+:information_source: Il est possible d'installer facilement toutes les dépendances, car `tello` et `tello-python` sont les principaux modules qui recursivement, sont dépendants de tous les autres.
 
 ##### Sur Windows
 
 ```bash
 python -m pip install tello tello-python
 ```
-##### Sur Linux et sur MacOS
+##### Sur Linux
 
 ```bash
 python3 -m pip install tello tello-python
